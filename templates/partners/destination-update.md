@@ -24,13 +24,17 @@
 >
 > If you have any questions in the meantime, please reach out to our team at partner-support@segment.com.
 
----
-
 ## Template begins here...
 
+> front matter parameters to add to top of your markdown file
+
 ---
 
-## title: <integration_name> Destination
+title: <integration_name> Destination
+hide-boilerplate: true
+hide-dossier: true
+
+---
 
 > (delete after reading) This template is meant for Actions-based destinations that represent a new version of an existing, or Classic Segment destination. For new Actions-based destinations, see destination-new-template.md template.
 
@@ -77,12 +81,9 @@ This destination is maintained by <integration_name>. For any issues with the de
 
 {% include components/actions-fields.html %}
 
-
 > (delete after reading) Additional Context
 >
 > Include additional information that you think will be useful to the user here. For information that is specific to an individual mapping, please add that as a comment so that the Segment docs team can include it in the auto-generated content for that mapping.
-
-
 
 ## Migration from the classic <destination_name> destination
 
